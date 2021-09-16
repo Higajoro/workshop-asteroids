@@ -5,8 +5,8 @@ public class BulletDestroy : MonoBehaviour
     public float seconds = 5.0f;
     public GameObject Bullet;
 
-    void FixedUpdate() {
-        new WaitForSeconds(seconds);
+    void FixedUpdate()
+    {
         Destroy(Bullet, seconds);
     }
 
